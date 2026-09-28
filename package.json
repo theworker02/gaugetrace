@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/gaugetrace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gauge config/trace key checks for twelve-factor services.",
+  "bin": {
+    "gaugetrace": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/gaugetrace.git"
+  },
+  "homepage": "https://theworker02.github.io/gaugetrace/",
+  "keywords": [
+    "gauge",
+    "trace",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
